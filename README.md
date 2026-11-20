@@ -43,7 +43,7 @@ class Zomato(models.Model):
 ....
 # OUTPUT
 
-![alt text](<../Screenshot (19).png>)
+
 
 
 # RESULT
