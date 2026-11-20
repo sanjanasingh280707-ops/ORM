@@ -43,6 +43,7 @@ class Zomato(models.Model):
 ....
 # OUTPUT
 
+<img width="1920" height="1080" alt="Screenshot (19)" src="https://github.com/user-attachments/assets/76309e52-4625-4fc8-83d0-c545ad76e988" />
 
 
 
