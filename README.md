@@ -22,12 +22,10 @@ admin.py
 
 from django.contrib import admin
 from .models import Zomato
-
-
 class ZomatoAdmin(admin.ModelAdmin):
     list_display = ('food_name','restaurant_name','MobileNumber','price','Category','availability')
-
 admin.site.register(Zomato,ZomatoAdmin)
+
 
 models.py
 
@@ -41,6 +39,8 @@ class Zomato(models.Model):
     Category=models.CharField(max_length=50)
     availability=models.BooleanField(default=True)
 ....
+
+
 # OUTPUT
 
 <img width="1920" height="1080" alt="Screenshot (19)" src="https://github.com/user-attachments/assets/76309e52-4625-4fc8-83d0-c545ad76e988" />
